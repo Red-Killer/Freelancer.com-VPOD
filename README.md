@@ -1,4 +1,4 @@
-# Project Owner Information Finder 🕵️‍♂️
+# Project Client Information Finder 🕵️‍♂️
 
 Gain access to information about project clients with this powerful browser extension!
 
