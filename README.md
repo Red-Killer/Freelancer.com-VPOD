@@ -11,4 +11,4 @@ Unlock the secrets of project owners with this sleek and powerful browser extens
 5. 📊 Discover all the hidden information about the project owner.
 
 ## Watch the Tutorial on YouTube 🎥
-Explore the features and functionalities with our detailed [YouTube Tutorial](https://youtu.be/xxx). Get ready to elevate your project insights!
+Explore the features and functionalities with our detailed [YouTube Tutorial](https://youtu.be/rz5cCKFS1Ig). Get ready to elevate your project insights!
