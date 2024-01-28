@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Freelancer.com VPOD",
+    "version": "1.0.0",
+    "description": "This extension will allow you to view informations about the project owner on freelancer.com",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.freelancer.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "icons": {
+        "128": "icon.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "popup.,js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "host_permissions": [
+        "*://*.freelancer.com/*"
+    ]
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
+    body {
+        width: 300px;
+        height: 200px;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        background: #1e1e1e;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-weight: 300;
+        margin: 0 0 20px 0;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .project-data {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .client {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .client a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 300;
+    }
+
+    .title {
+        /* remove  some space between client items and title */
+        font-size: 25px;
+    }
+</style>
+
+<body>
+    <div class="app">
+        <h1>API Test</h1>
+        <div class="project-data">
+            <div class="client">
+                <a class="title">Client</a>
+                <a>Username: <span class="username">Unknown</span></a>
+                <a>Public Name: <span class="public-name">Unknown</span></a>
+                <a style="color: #2196F3; text-decoration: underline; cursor: pointer;" class="view-profile">View Profile</a>
+            </div>
+            <div class="project">
+            </div>
+        </div>
+    </div>
+    <div class="no-app">
+        <h1>API Test</h1>
+        <p>Open a project on Freelancer.com to see more details.</p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
